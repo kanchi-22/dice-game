@@ -1,0 +1,40 @@
+@media screen and (max-width:1000px){
+    nav h3{
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin: 40px 0px;
+    }
+    #game{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 100px 0px;
+    }
+    .dice{
+        transform: scale(1);
+        margin: 0px auto;
+    }
+    #dice1{
+        grid-row-start: 1;
+    }
+    #dice2{
+        grid-row-start: 2;
+    }
+    #game button{
+        width: 40%;
+        height: 60px;
+        margin: 40px auto;
+    }
+    .fa-solid{
+        margin:  100px auto;
+        transform: scale(14);
+        height: auto;
+    }
+    #result{
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 80px;
+    }
+}

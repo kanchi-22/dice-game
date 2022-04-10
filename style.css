@@ -1,0 +1,68 @@
+/* Navbar */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+button{
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+}
+nav{
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    background-color: #391306;
+    color: white;
+}
+nav h3{
+    margin-top: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    padding: 200px 0px;
+    background-color: #F1CED4;
+}
+#game button{
+    margin: 20px 10%;
+    width: 10%;
+    background-color: #391306;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#game button:hover{
+    background-color: #511e0d;
+}
+#result{
+    margin: 0px ;
+    padding: 10px 0px 60px 150px;
+    background-color: #F1CED4;
+    font-size: 40px;
+    color: black;
+    display: block;
+}
+.dice{
+    transform: scale(15);
+    margin: 40px;
+}
+/* .fa-solid{
+    transform: scale(5);
+} */
+.image-rotate {
+    animation: rotation 0.2s 2 linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
